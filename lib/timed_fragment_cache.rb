@@ -5,7 +5,8 @@ module ActionController
         if fragment_exist?(name)
           if fragment_expired?(name)
             expire_timed_fragment(name)
-            return yield
+            write_meta_fragment(name, expiry)
+            write_fragment(name, yield)
           else
             read_fragment(name)
           end
@@ -41,3 +42,4 @@ module ActionController
   end
 end
 
+ActionController::Base.send :include, ActionController::Caching::TimedFragment
