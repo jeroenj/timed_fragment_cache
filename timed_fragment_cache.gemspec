@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{timed_fragment_cache}
-  s.version = "0.0.0"
+  s.version = "0.0.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Jeroen Jacobs"]
@@ -28,7 +28,8 @@ Gem::Specification.new do |s|
      "lib/timed_fragment_cache.rb",
      "rails/init.rb",
      "spec/spec_helper.rb",
-     "spec/timed_fragment_cache_spec.rb"
+     "spec/timed_fragment_cache_spec.rb",
+     "timed_fragment_cache.gemspec"
   ]
   s.homepage = %q{http://github.com/jeroenj/timed_fragment_cache}
   s.rdoc_options = ["--charset=UTF-8"]
