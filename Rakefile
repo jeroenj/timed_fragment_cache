@@ -7,7 +7,7 @@ begin
     gem.name = "timed_fragment_cache"
     gem.summary = "Timed fragment caching"
     gem.description = "You'll be able to automatically invalidate a cache on a specified time."
-    gem.email = "jj@redstorm.be"
+    gem.email = "gems@jeroenj.be"
     gem.homepage = "http://github.com/jeroenj/timed_fragment_cache"
     gem.authors = ["Jeroen Jacobs"]
     gem.add_development_dependency "rspec", ">= 2.0.0.beta.15"

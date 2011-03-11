@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.authors = ["Jeroen Jacobs"]
   s.date = %q{2010-07-01}
   s.description = %q{You'll be able to automatically invalidate a cache on a specified time.}
-  s.email = %q{jj@redstorm.be}
+  s.email = %q{gems@jeroenj.be}
   s.extra_rdoc_files = [
     "LICENSE",
      "README.rdoc"
